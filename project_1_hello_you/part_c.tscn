@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://c2lgg2dly1ay"]
 
+[ext_resource type="Texture2D" uid="uid://be47nsvg0v2i1" path="res://icon.svg" id="1_e15qq"]
+
 [node name="Part_C" type="Control" unique_id=1842323565]
 layout_mode = 3
 anchors_preset = 15
@@ -18,3 +20,24 @@ text = "Add more labels, images, and other Control nodes to this scene to build 
 Remember that you may need to scroll down to \"Theme Overrides > Font Sizes\" in the Inspector 
 to make your labels big enough to read. (This is font size 20px, for reference)."
 vertical_alignment = 1
+
+[node name="Label" type="Label" parent="." unique_id=1402160313]
+layout_mode = 0
+offset_right = 172.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 30
+text = "Grant Lewis"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="." unique_id=1664308001]
+custom_minimum_size = Vector2(500, 100)
+layout_mode = 0
+offset_left = 88.0
+offset_top = 104.0
+offset_right = 588.0
+offset_bottom = 204.0
+text = "fun fact"
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1153098104]
+position = Vector2(1088, 64)
+scale = Vector2(0.84000003, 0.84000003)
+texture = ExtResource("1_e15qq")
